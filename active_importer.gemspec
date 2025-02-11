@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'active_importer/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "active_importer_timetics"
+  spec.name          = "active_importer"
   spec.version       = ActiveImporter::VERSION
   spec.authors       = ["Jose Ignacio Rodriguez Maicas"]
   spec.email         = [""]
