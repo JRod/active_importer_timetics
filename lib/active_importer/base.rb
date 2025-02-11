@@ -263,7 +263,7 @@ module ActiveImporter
     def load_sheet
       sheet_index = self.class.instance_variable_get(:@sheet_index)
       if sheet_index
-        sheet_index = @book.sheets[sheet_index-1] if sheet_index.is_a?(Fixnum)
+        sheet_index = @book.sheets[sheet_index-1] if sheet_index.is_a?(Integer)
         @book.default_sheet = sheet_index.to_s
       end
     end
