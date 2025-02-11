@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "active_importer_timetics"
   spec.version       = ActiveImporter::VERSION
   spec.authors       = ["Jose Ignacio Rodriguez Maicas"]
-  spec.email         = ["gnapse@gmail.com"]
+  spec.email         = [""]
   spec.description   = %q{Import tabular data from spreadsheets or similar sources into data models}
   spec.summary       = %q{Import tabular data into data models}
   spec.homepage      = ""
