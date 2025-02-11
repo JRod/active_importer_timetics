@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'active_importer/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "active_importer"
+  spec.name          = "active_importer_timetics"
   spec.version       = ActiveImporter::VERSION
-  spec.authors       = ["Ernesto Garcia"]
+  spec.authors       = ["Jose Ignacio Rodriguez Maicas"]
   spec.email         = ["gnapse@gmail.com"]
   spec.description   = %q{Import tabular data from spreadsheets or similar sources into data models}
   spec.summary       = %q{Import tabular data into data models}
-  spec.homepage      = "http://continuum.github.io/active_importer/"
+  spec.homepage      = ""
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
